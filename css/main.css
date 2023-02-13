@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+.home{
+   
+    width: 100%;
+  
+}
+.home .nav{
+  /*background-color:rgba(163, 94, 108, 0.36);*/
+  overflow: auto;
+  padding: 30px;
+  
+}
+ 
+.home .nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 210px;
+}
+.home .nav ul li{
+     float: left;
+     padding: 15px;
+     font-size: large;
+     font-weight: bold;
+     
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color:rgb(93, 91, 91) ;
+    
+    
+}
+.bttn{
+    border-radius: 5px;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    float: left;  
+    border-style: hidden;
+}
+#uu{
+    font-size: xx-large;
+    color: rgb(93, 91, 91);
+    font-weight: bold;
+    padding: 3px;
+}
+#orange{
+    color: orange;
+}
+#blue{
+    color:rgb(3, 204, 204);
+}
+
+
+/*end of header*/ 
+
+
+.image{
+    width: 50%;
+    float: left;
+}
+.image img{
+    width: 50%;
+    
+}
+.para{
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+    
+   
+   
+}
+.para h1{
+    float: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    padding-right: 195px;
+    
+
+
+}
+.para p{
+    float: right;
+    width: auto;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 380;
+   
+}
+.start {
+    float: right;
+    padding-right: 120px;
+    
+}
+ button:hover{
+    color: rgb(41, 74, 103);
+    background-color: rgb(3, 204, 204);
+    text-shadow: 10px;
+    border-style: hidden;
+}
+.start button{
+    font-size: larger;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+.medium{
+    color: rgb(79, 77, 77);
+    width:50%;
+}
+.medium .words{
+    padding: 120px;
+   
+}
+.medium .words  h2{
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 1000;
+    
+}
+.medium .words p{
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .wordpic{
+    
+    width: 100%;
+    
+    display: flex;
+    direction: ltr;
+ }
+ .wordpic .pic img{
+    width: 80%;
+    margin-right: 60px;
+ }
+ .wordpic .w{
+    width: 50%;
+    text-align: center;
+    margin-left: 150px;
+    color: rgb(109, 108, 108);
+    font-size: medium;
+    
+ }
+ .mainsquares{
+    background-color: rgb(248, 244, 244);
+    width: 75%;
+    height: 150vh;
+    margin:100px 100px 40px 100px;
+    
+ }
+ .mainsquares .thingstopmain{
+    text-align: center;
+    color: grey;
+ }
+ .mainsquares .minicards{
+    width:80%;
+    
+    margin-right:70px ;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ .mainsquares .minicards .minicard {
+    font-size: 20px;
+    width: 30%;
+    
+    
+ }
+ .mainsquares .minicards .minicard h2{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 50px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(105, 102, 102);
+    
+ }
+ .mainsquares .minicards .minicard h2:hover{
+    color: rgb(86, 82, 82);
+    background-color: rgb(97, 137, 173);
+ }
+ .mainsquares .minicards .clients{
+    color: rgb(105, 102, 102);
+    text-align: center;
+    padding-top: 40px;
+ }
+ .mainsquares .minicards .clients p{
+    padding-top: 25px;
+ }
+ .contact{
+    width: 100%;
+ }
+ .contact .contactus h2 , p {
+    color: rgb(79, 76, 76);
+    text-align: center;
+ }
+ .contact .address{
+    width: 35%;
+    background-color: rgb(248, 244, 244);
+    
+    margin-right: 120px;
+    padding-right: 30px;
+    padding-top: 20px;
+ }
+ .contact .address h3,h4,h5{
+    color: rgb(79, 76, 76);
+    
+ }
+ iframe{
+    padding-right: 0px;
+    margin-top: 20px;
+ }
+ .forms{
+    width: 35%;
+    height: 70vh;
+    background-color: rgb(248, 244, 244);
+    margin-right: 120px;
+    padding-right: 15px;
+ }
+ .forms button{
+    width: 90px;
+    padding:10px 0px 10px 0px;
+    border-radius: 10px;
+    border-color: rgb(4, 137, 137);
+ }
+ .end{
+    width: 65%;
+    height: 30vh;
+    background-color: rgb(248, 244, 244);
+    
+    margin-right: 185px;
+    margin-top: 30px;
+ }
+ .end h1{
+    text-align: center;
+    color: rgb(79, 76, 76);
+    padding-top: 40px;
+    
+ }
+ .end .copy{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+ }
+ .end span{
+    color: crimson;
+ }
+ .end .me{
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+ 
+
+ 
+
+
+ 
+
